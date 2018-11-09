@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Burger from '../../components/burger/Burger';
 
 class BurgerBuilder extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>Burger</div>
+        <Burger/>
 
         <div>Burger controls</div>
 
